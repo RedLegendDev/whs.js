@@ -4,7 +4,7 @@ module.exports = {
     'targets': {
       browsers: ['last 2 versions', 'safari >= 7']
     },
-    modules: false
+    modules: true
   }]],
   plugins: ['@babel/plugin-external-helpers', // ['@babel/plugin-transform-runtime', {
   //   polyfill: false,
@@ -31,6 +31,5 @@ module.exports = {
   //     ]
   //   },
   // }
-
 };
 //# sourceMappingURL=.babelrc.module.js.map
